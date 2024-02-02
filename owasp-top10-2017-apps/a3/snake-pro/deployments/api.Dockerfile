@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.22rc2-bookworm
 
 WORKDIR /go/src/github.com/globocom/secDevLabs/owasp-top10-2017-apps/a3/snake-pro/app
 
